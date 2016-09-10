@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
 # $ bundle exec rake routes
 #      Prefix Verb   URI Pattern                  Controller#Action
 #    contacts GET    /contacts(.:format)          contacts#index
